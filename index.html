@@ -168,7 +168,14 @@
       <section>
         <div
           class="hero py-10 rounded-2xl mb-20"
-          style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.554), rgba(0, 0, 0, 0.282)), url(./images/banner.png)"
+          style="
+            background-image: linear-gradient(
+                0deg,
+                rgba(0, 0, 0, 0.554),
+                rgba(0, 0, 0, 0.282)
+              ),
+              url(./images/banner.png);
+          "
         >
           <div class="bg-opacity-50 rounded-2xl"></div>
           <div class="hero-content text-white text-center">
@@ -343,7 +350,7 @@
 
       <!-- What Our Client Say section -->
 
-      <section class="w-10/12 mx-auto">
+      <section class="md:max-w-screen-xl mx-auto my-20 md:px-16">
         <!-- text section -->
         <div class="text-center md:w-3/6 mx-auto py-10">
           <h2 class="text-gray-700 text-4xl font-bold mb-5">
@@ -499,56 +506,152 @@
         <div class="grid grid-cols-1 gap-4 items-center lg:grid-cols-2">
           <!-- FAQs Question -->
           <div>
+            <!-- Question - 1 -->
             <div class="collapse collapse-plus bg-base-200 my-3">
               <input type="radio" name="my-accordion-3" checked="checked" />
               <div class="collapse-title text-xl font-bold">1.</div>
               <div class="collapse-content">
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, . </p>
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour, .
+                </p>
               </div>
             </div>
+            <!-- Question - 2 -->
             <div class="collapse collapse-plus bg-base-200 my-3">
               <input type="radio" name="my-accordion-3" />
               <div class="collapse-title text-xl font-bold">2</div>
               <div class="collapse-content">
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, .</p>
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour, .
+                </p>
               </div>
             </div>
+            <!-- Question - 3 -->
             <div class="collapse collapse-plus bg-base-200 my-3">
               <input type="radio" name="my-accordion-3" />
               <div class="collapse-title text-xl font-bold">3</div>
               <div class="collapse-content">
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, .</p>
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour, .
+                </p>
               </div>
             </div>
+            <!-- Question - 4 -->
             <div class="collapse collapse-plus bg-base-200 my-3">
               <input type="radio" name="my-accordion-3" />
               <div class="collapse-title text-xl font-bold">4</div>
               <div class="collapse-content">
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, .</p>
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour, .
+                </p>
               </div>
             </div>
+            <!-- Question - 5 -->
             <div class="collapse collapse-plus bg-base-200 my-3">
               <input type="radio" name="my-accordion-3" />
               <div class="collapse-title text-xl font-bold">5</div>
               <div class="collapse-content">
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, .</p>
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour, .
+                </p>
               </div>
             </div>
+            <!-- Question - 6 -->
             <div class="collapse collapse-plus bg-base-200 my-3">
               <input type="radio" name="my-accordion-3" />
               <div class="collapse-title text-xl font-bold">6</div>
               <div class="collapse-content">
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, .</p>
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour, .
+                </p>
               </div>
             </div>
           </div>
           <!-- Faq image -->
-           <div >
-            <img  src="./images/faq.png" alt="">
-           </div>
+          <div>
+            <img src="./images/faq.png" alt="" />
+          </div>
         </div>
       </section>
     </main>
-    <footer></footer>
+
+    
+      <footer
+        class="footer text-base-content p-10 text-white bg-black "
+      >
+        <div class="w-11/12 md:max-w-screen-xl mx-auto py-20  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 ">
+          <!-- Logo and text -->
+          <div>
+            <nav>
+              <a>
+                <img src="./images/logo.png" alt="" />
+              </a>
+              <p class="my-6 text-gray-400">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour.
+              </p>
+            </nav>
+          </div>
+
+          <!-- Usefull Link -->
+          <div>
+            <nav class="flex flex-col gap-4">
+              <h6 class="text-white text-balance font-semibold">Usefull Link</h6>
+              <a href="#" class="text-gray-400">Homes </a>
+              <a href="#" class="text-gray-400">About Us </a>
+              <a href="#" class="text-gray-400">Cases </a>
+              <a href="#" class="text-gray-400">Blog </a>
+              <a href="#" class="text-gray-400">Contact Us</a>
+            </nav>
+          </div>
+
+          <!-- Contact Now -->
+          <div>
+            <nav class="flex flex-col gap-4">
+              <h6 class="text-white text-balance font-semibold">Contact Now</h6>
+              <a href="#" class="text-gray-400"
+                >555 4th 5t NW, Washington DC 20530, United States
+              </a>
+              <a href="#" class="text-gray-400">+88 01750 000 000 <br>
+                +88 01750 000 000 </a>
+              <a href="#" class="text-gray-400">info@gmail.com <br>
+                info@gmail.com </a>
+              
+            </nav>
+          </div>
+          <!-- Subscribe -->
+          <div>
+          
+              <h6 class="text-white text-balance font-semibold">Subscribe</h6>
+              <p class="my-6 text-gray-400">Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
+              <fieldset class="form-control">
+                
+                <div class="join">
+                  <input
+                    type="text"
+                    placeholder="Enter your email"
+                    class="input join-item"
+                  />
+                  <button class="btn btn-primary join-item"><i class="fa-regular fa-paper-plane"></i></button>
+                </div>
+              </fieldset>
+            
+          </div>
+        </div>
+      </footer>
+    
   </body>
 </html>
